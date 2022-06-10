@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Linguagem em Português BR-->
+<head>
+    <meta charset="UTF-8"> <!--Permite o uso de acentuação-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Henrique</title> <!--Título do site-->
+    <style> 
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table{
+            border-collapse: collapse; 
+            width: 350px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body> <!--No body, colocamos as tags de conteúdo-->
+    <header>
+        <div class="container-logo">
+            <div class="logo-imagem"></div>
+            <div class="logo-texto"> 
+                <h1>LOGO</h1>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#"> Home </a></li> <!--Cabeçalho com links vazios-->
+                <li><a href="#"> Pesquisa </a></li>
+                <li><a href="#"> Contato </a></li>
+                <li><a href="#"> Sobre a empresa </a></li>
+            </ul>
+        </div>
+    </header>
+    <h1>Esse é o título do meu site</h1>
+    <h2>Abaixo temos um paragráfo do site:</h2>
+    <p><b>Lorem ipsum</b>dolor sit amet, <i>consectetur adipiscing elit.</i> Etiam eu turpis molestie, dictum est a, mattis 
+        tellus. Sed di gnissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit 
+        sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad 
+        litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim 
+        egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor 
+        urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in 
+        elementum tellus.</p>
+    <h2>Imagens:</h2>
+    <img src="Imagens/Background.png" alt="Imagem com o nome da disciplina"> <!--Imagem baixada no meu computador-->
+    <img src="http://portal.ufvjm.edu.br/onde-estamos/diamantina/imagens/campus-jk-1/@@images/6330c070-8ad7-49c6-b911-c3a33008ff7d.png" alt="Imagem copiada do site da UFVJM"> <!--Imagem inserida via link no site da UFVJM-->
+    <h2>Listas:</h2>
+    <h3>Ordenadas:</h3> <!--A ordem da lista é importante-->
+    <ol>
+        <li>4</li>
+        <li>2</li>
+        <li>7</li>
+        <li>6</li>
+        <li>1</li>
+    </ol>
+    <h3>Não ordenadas:</h3> <!--A ordem da lista não é importante-->
+    <ul>
+        <li>4</li>
+        <li>2</li>
+        <li>7</li>
+        <li>6</li>
+        <li>1</li>
+    </ul>
+    <h2>Tabelas:</h2>
+    <table>
+        <tr> <!--Primeira linha da tabela-->
+            <td>1</td> <!--"td" são os dados da tabela.-->
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr> <!--Segunda linha da tabela-->
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr> <!--Terceira linha da tabela-->
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr> <!--Quarta linha da tabela-->
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+<div>
+    <h2>Cadastro de Usuário</h2>
+    <p>Preencha o formulário abaixo</p>
+</div>
+<form>
+    <fieldset>
+        <div>
+            <label> Nome </label> <!--A label vai ser a explicação do campo-->
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <label> E-mail </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <button>Enviar</button>
+    </fieldset><!--vai agrupar os campos-->
+</form>
+</body>
+</html>
