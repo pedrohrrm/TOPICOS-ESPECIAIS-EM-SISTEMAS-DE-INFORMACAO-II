@@ -1,0 +1,184 @@
+
+/*Seletor universal
+ *{
+	border: 1px solid red;
+}
+*/ 
+ 
+
+/*
+Seletor de texto/*
+
+h1 {//Nesse caso, todo h1 do texto será verde
+	color: green;
+}  
+
+/*
+Seletor de classe
+.verde { //sei que é classe, porque inicia por ponto
+	color: green;
+}
+
+p.verde { //colocando o p antes do ponto, significa que quando tiver um paragrafo, e tiver especificado a classe verde, vai ser aplicado a formatação definida.
+	color: green;
+}
+ 
+ */  
+ /*
+Seletor de ID 
+#cabecalho {
+	border: 1px solid blue;
+} 
+
+/*
+
+Seletor de filho
+li>a { dentro do li, tenho um filho (a)
+	color: red;
+	text-decoration: none;
+}
+  */
+/*
+Seletor de descendente  
+div a {
+	color: green;
+}
+ /*
+ 
+Seletor de irmão adjacente 
+
+h1+p{ //se eu tenho esse irmão adjacente, vai realizar a formatação somente no irmão de h1
+	/esse seletor vai apenas em um irmão adjacente;
+	color: red;
+}  
+
+ /*
+Seletor de irmão geral seleciona todos os irmãos*/
+
+h1~p {
+	color: pink;
+} 
+
+
+
+
+
+
+
+
+
+/*******************************/
+Estilizando tabelas 
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table {
+	width: 600px;
+	border-collapse: separate;/*collapse*/
+}
+
+th, td {
+	padding: 7px;
+}
+
+th {
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado {
+	background-color: #efefef;
+}
+
+tr:hover {
+	background-color: #c3e6e5;
+}
+
+.numero {
+	text-align: right;
+}
+ 
+
+
+
+/*******************************
+Estilizando formulários parte 2  
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(../imagens/fundo.jpg) no-repeat top center;
+}
+
+#container {
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255,255,255,0.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+
+#container img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input {
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email {
+	background-image: url(../imagens/icone-usuario.png);
+}
+
+input.senha {
+	background-image: url(../imagens/icone-cadeado.png);
+}
+
+input.submit {
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
