@@ -1,0 +1,28 @@
+*{
+    border: 2px solid blue;
+}
+h1{
+    color:brown;
+}
+.vermelho{
+    color: red;
+}
+p.vermelho{
+    color: red;
+}
+#cabecalho{
+    border: 20px solid black;
+}
+li>a{
+    color: orange;
+    text-decoration:aqua;
+}
+div a{
+    color:darkgoldenrod;
+}
+h1+p{
+    color: burlywood;
+}
+h1~p{
+    color: greenyellow;
+}
